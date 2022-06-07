@@ -1,4 +1,100 @@
-.resturants-page-selection {
+.restaurants-page-selection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.restaurants-page-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100px);
+}
+
+.restaurants-page-content ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restaurants-page-content ul li {
+    list-style: none;
+    border-radius: 40px;
+}
+
+.restaurants-page-content ul li a {
+    list-style: none;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.mainLocation {
+    background-color: var(--navigation-circle-location);
+}
+
+.notMainLocation {
+    display: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.restaurants-content-shift {
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restaurants-content-shift ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.restaurants-content-shift ul li {
+    list-style: none;
+    width: 20px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.button-selection {
+    border-radius: 50%;
+    height: 100%;
+    display: block;
+}
+
+.button-main-location-left {
+    margin-right: 40px;
+}
+
+.button-main-location-right {
+    margin-left: 40px;
+}
+
+.button-main-location {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-button-menu {
+    width: 70%;
+    height: 70%;
+}
+
+.location-button-menu img {
     width: 100%;
     height: 100%;
 }

@@ -6,6 +6,7 @@
     justify-content: center;
     box-shadow: 2px 3px 5px 4px rgba(0, 0, 0, 0.12);
     border-radius: 40px;
+    background-color: white;
 }
 
 .detailed-restaurant-inside {

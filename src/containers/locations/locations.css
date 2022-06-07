@@ -5,10 +5,14 @@
 }
 
 .locations-page-main {
+    z-index: 4;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .locations-page-first-half {
@@ -48,4 +52,16 @@
     justify-content: center;
     width: 100%;
     height: 100%;
+}
+
+.circle7 {
+    position: absolute;
+    top: 270px;
+    left: 600px;
+}
+
+.circle8 {
+    position: absolute;
+    top: 130px;
+    right: 90px;
 }

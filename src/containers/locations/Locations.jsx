@@ -1,5 +1,5 @@
 import React from 'react';
-import { Restaurants } from '../../components';
+import { Circles, Restaurants } from '../../components';
 import './locations.css';
 
 const Locations = () => {
@@ -16,6 +16,12 @@ const Locations = () => {
             <Restaurants />
           </div>
         </div>
+      </div>
+      <div className="circle7">
+        <Circles diameter={ '150px' } />
+      </div>
+      <div className="circle8">
+        <Circles diameter={ '780px' } />
       </div>
     </section>
   )
