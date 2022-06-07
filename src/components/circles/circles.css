@@ -1,0 +1,4 @@
+.circle {
+    background-color: var(--circle-colors);
+    border-radius: 50%;
+}

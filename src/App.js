@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import './App.css';
+import { Circles } from './components';
+
+import { First, Foods, Footer, Locations, Services } from './containers';
+// import { Circles, Eatern, FoodItems, Order, Restaurants, NavBar } from './components';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='pages'>
+        <First />
+      </div>
+      <div className='pages'>
+        <Foods />
+      </div>
+      <div className='pages'>
+        <Services />
+      </div>
+      <div className='pages'>
+        <Locations />
+      </div>
+      <div className='footer-page'>
+        <Footer />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

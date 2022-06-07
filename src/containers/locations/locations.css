@@ -1,0 +1,51 @@
+#locations {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.locations-page-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.locations-page-first-half {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locations-page-heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locations-page-heading h1 {
+    font-family: var(--font-family-regular);
+    font-size: 50px;
+    font-weight: normal;
+    transform: translateY(-100px);
+}
+
+.locations-page-second-half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.locations-page-restaurants {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,74 @@
+.first-page {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.main-first-page {
+    z-index: 3;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 7vh;
+}
+
+.eatern-main-page {
+    margin-top: 30px;
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eatern {
+    width: 50%;
+    height: 100%;
+}
+
+.eatern-quote {
+    margin-top: -20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eatern-quote p {
+    font-family: var(--font-family-regular);
+    font-size: 30px;
+}
+
+.circle1 {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
+.circle2 {
+    position: absolute;
+    top: 150px;
+    right: -300px;
+}
+
+.circle3 {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+
+.circle4 {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}

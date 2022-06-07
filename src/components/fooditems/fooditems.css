@@ -1,0 +1,53 @@
+.foodItems {
+    width: 100%;
+    height: 850px;
+    position: relative;
+}
+
+.chicken-fries {
+    width: 440px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pasta {
+    width: 320px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 450px;
+}
+
+.grill-chicken {
+    width: 320px;
+    height: 440px;
+    position: absolute;
+    top: 410px;
+    left: 450px;
+}
+
+.mutton-biriyani {
+    width: 510px;
+    height: 460px;
+    position: absolute;
+    top: 0;
+    left: 780px;
+}
+
+.dosa {
+    width: 510px;
+    height: 380px;
+    position: absolute;
+    top: 470px;
+    left: 780px;
+}
+
+.parotta {
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 1305px;
+}
