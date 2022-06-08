@@ -1,0 +1,143 @@
+.placeorder {
+    width: 100%;
+    position: relative;
+}
+
+.page-content {
+    width: 100%;
+    height: 100%;
+}
+
+.placeorder-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+}
+
+.placeorder-page-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.placeorder-page-first-half {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family-regular);
+}
+
+.placeorder-page-first-half-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(150px);
+    position: relative;
+}
+
+.placeorder-heading {
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.placeorder-form {
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.placeorder-form input {
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    background: var(--input-box-color);
+    padding-left: 30px;
+}
+
+.placeorder-form textarea {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    background: var(--input-box-color);
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.submission-btns {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.submission-btns button {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.submission-btns button p {
+    text-decoration: none;
+    color: black;
+}
+
+.normalButtonColor {
+    background-color: var(--input-box-color);
+}
+
+.buttonColor {
+    background-color: var(--circle-colors);
+}
+
+.buttonNavlink {
+    text-decoration: none;
+    color: black;
+}
+
+.placeorder-page-second-half {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    height: 30vh;
+}
+
+.chef-hat-image {
+    position: absolute;
+    top: -60px;
+    left: 640px;
+}
+
+.chef-hat-image img {
+    width: 100px;
+    transform: rotateX(0.5deg);
+}
+
+.circle10 {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}

@@ -9,10 +9,10 @@ const Footer = () => {
       <div className="contact-us">
         <p className='contact-us-heading'>Contact Us</p>
         <div className="contact-us-details">
-          <div className="social-boxes"><img src={ FacebookLogo } alt="" /></div>
-          <div className="social-boxes"><img src={ WhatsappLogo } alt="" /></div>
-          <div className="social-boxes"><img src={ TwitterLogo } alt="" /></div>
-          <div className="social-boxes"><img src={ InstagramLogo } alt="" /></div>
+          <a href="https://www.facebook.com/profile.php?id=100081214953675" target="_blank"><div className="social-boxes"><img src={ FacebookLogo } alt="" /></div></a>
+          <a href="" target="_blank"><div className="social-boxes"><img src={ WhatsappLogo } alt="" /></div></a>
+          <a href="https://twitter.com/SVenkadesh004" target="_blank"><div className="social-boxes"><img src={ TwitterLogo } alt="" /></div></a>
+          <a href="https://www.instagram.com/venkadesh_developer/" target="_blank"><div className="social-boxes"><img src={ InstagramLogo } alt="" /></div></a>
         </div>
       </div>
       <div className="copyrights">

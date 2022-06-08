@@ -4,3 +4,6 @@ export { default as Footer } from './footer/Footer';
 export { default as Locations } from './locations/Locations';
 export { default as Services } from './services/Services';
 export { default as MainPage } from './mainpage/MainPage';
+export { default as PlaceOrder } from './placeOrder/PlaceOrder';
+export { default as Layout } from './layout/Layout';
+export { default as DiningItems } from './diningItems/DiningItems';
