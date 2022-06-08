@@ -61,3 +61,20 @@
 .food-items-info-heading:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 500px) {
+    
+    .food-items-info-heading {
+        font-size: 20px;
+    }
+
+    .food-items-info-descp {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .foodItems-content:hover .food-items-info {
+        transform: translateY(0px);
+    }
+
+}

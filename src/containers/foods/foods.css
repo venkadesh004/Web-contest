@@ -10,7 +10,7 @@
 .food-page-content {
     width: 100%;
     padding: 20px 50px;
-    height: 95vh;
+    height: 85vh;
 }
 
 .food-page-quote {
@@ -24,4 +24,17 @@
 .food-page-quote p {
     font-family: var(--font-family-regular);
     font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .food-page-content {
+        padding: 0px;
+    }
+
+    .food-page-quote p {
+        font-size: 12px;
+        height: 10px;
+    }
+
 }

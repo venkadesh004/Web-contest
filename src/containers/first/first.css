@@ -72,3 +72,12 @@
     top: 100px;
     left: 600px;
 }
+
+@media screen and (max-width: 500px) {
+    
+    .eatern-quote p {
+        font-family: var(--font-family-regular);
+        font-size: 12px;
+    }    
+
+}

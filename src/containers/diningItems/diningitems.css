@@ -193,3 +193,75 @@
     width: 100%;
     height: 30vh;
 }
+
+@media screen and (max-width: 500px) {
+    
+    .for-media-screen {
+        width: 160px;
+        height: 300px;
+    }
+
+    .veg-biriyani {
+        left: 30px;
+        top: 660px;
+    }
+
+    .tea {
+        left: 200px;
+        top: 660px;
+    }
+
+    .coffee {
+        left: 30px;
+        top: 970px;
+    }
+
+    .juice {
+        left: 200px;
+        top: 970px;
+    }
+
+    .mutton-fries {
+        left: 30px;
+        top: 1280px;
+    }
+
+    .fish-biriyani {
+        left: 200px;
+        top: 1280px;
+    }
+
+    .fish-curry {
+        left: 30px;
+        top: 1590px;
+    }
+
+    .noodles {
+        left: 200px;
+        top: 1590px;
+    }
+
+    .lemon-juice {
+        left: 30px;
+        top: 1900px;
+    }
+
+    .salad {
+        left: 200px;
+        top: 1900px;
+    }
+
+    .dining-food-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dining-items-content img {
+        display: none;
+    }
+
+    .btns {
+        margin-top: -200px;
+    }
+
+}

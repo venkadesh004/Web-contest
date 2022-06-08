@@ -2,7 +2,6 @@ import React from 'react';
 import './eatern.css';
 import eatern_hat from '../../assets/eatern_hat.png';
 import eatern_main_page_image from '../../assets/eatern_main_page_image.png'; 
-import Circles from '../circles/Circles';
 
 const Eatern = () => {
   return (

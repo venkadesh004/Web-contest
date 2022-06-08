@@ -32,3 +32,36 @@
     position: absolute;
     top: 250px;
 }
+
+@media screen and (max-width: 500px) {
+    
+    .eatern-main {
+        margin-top: 10px;
+    }
+
+    .eatern-hat {
+        top: 30px;
+        right: 0px;
+    }
+
+    .eatern-hat img {
+        width: 100px;
+    }
+
+    .eatern-heading {
+        font-size: 60px;
+        right: 20px;
+    }
+
+    .eatern-main-page-image {
+        top: 200px;
+    }
+
+    .eatern-main-page-image img {
+        width: 300px;
+    }
+
+    .eatern-quote p {
+        font-size: 23px;
+    }
+}

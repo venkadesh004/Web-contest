@@ -51,3 +51,56 @@
     top: 0;
     left: 1305px;
 }
+
+@media screen and (max-width: 500px) {
+    
+    .foodItems {
+        height: 400px;
+    }
+
+    .chicken-fries {
+        height: 200px !important;
+        width: 150px !important;
+    }
+
+    .pasta {
+        height: 200px !important;
+        width: 180px !important;
+        position: absolute;
+        top: 0;
+        left: 190px !important;
+    }
+
+    .grill-chicken {
+        height: 200px !important;
+        width: 150px !important;
+        position: absolute;
+        top: 240px !important;
+        left: 30px !important;
+    }
+
+    .mutton-biriyani {
+        height: 200px !important;
+        width: 180px !important;
+        position: absolute;
+        top: 240px !important;
+        left: 190px !important;
+    }
+
+    .dosa {
+        height: 200px !important;
+        width: 150px !important;
+        position: absolute;
+        top: 450px !important;
+        left: 30px !important;
+    }
+
+    .parotta {
+        height: 200px !important;
+        width: 180px !important;
+        position: absolute;
+        top: 450px !important;
+        left: 190px !important;
+    }
+
+}

@@ -141,3 +141,31 @@
     top: 100px;
     right: 100px;
 }
+
+@media screen and (max-width: 500px) {
+
+    .placeorder-page-second-half {
+        display: none;
+    }
+
+    .placeorder-page-first-half {
+        width: 100%;
+    }
+
+    .circle10 {
+        display: none;
+    }
+
+    .placeorder-heading {
+        text-align: center;
+    }
+
+    .placeorder-form {
+        width: 90%;
+    }
+
+    .chef-hat-image {
+        display: none;
+    }
+
+}

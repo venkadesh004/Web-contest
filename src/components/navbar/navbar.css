@@ -54,3 +54,34 @@
     border-radius: 50px;
     margin-left: 30px;
 }
+
+@media screen and (max-width: 500px) {
+
+    .navbar {
+        height: 50px;
+    }
+
+    .navbar ul {
+        right: 10px;
+        font-size: 7px;
+        width: 95%;
+    }
+
+    .navbar ul li a {
+        letter-spacing: 0px;
+    }
+
+    .simple-menu {
+        width: 50px;
+    } 
+
+    .place-orders {
+        width: 70px;
+    }
+
+    .menu-dining {
+        width: 70px;
+        margin-left: 0px;
+    }
+
+}
